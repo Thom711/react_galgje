@@ -8,6 +8,7 @@ const TextInput = props => (
       value={props.currentChosenLetter}
       disabled={props.gameIsOver ? "disabled" : ""}
       onChange={props.change}
+      required
     />
     <input
       type="submit"
